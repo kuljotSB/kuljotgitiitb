@@ -1,0 +1,58 @@
+-- create a table
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    age integer not null,
+    );
+
+insert into students(id, name, gender, age)
+values(1,"sneha", "female", 23);
+
+insert into students(id,name,gender,age)
+values(2,"harshitha","female",22);
+
+insert into students(id,name,gender,age)
+values(3,"rohan","male",24);
+
+insert into students(id,name,gender,age)
+values(4,"sohan","male",20);
+
+select *from students;
+
+select count(distinct(id)) from students;
+
+select age,name from students
+where age>23;
+
+select age,name from students
+where gender="male";
+
+select age from students
+where not gender="male";
+
+select *from students
+order by age asc;
+
+update students
+set name="sneha" , age=55, gender="male"
+where id=6;
+
+delete from students where name = "sneha"
+
+select name from students
+
+select max(age), name
+from students;
+
+select count(id)
+from students;
+
+select avg(age)
+form students;
+
+select sum(age)
+from students;
+
+select *from students
+where gender = "male";
