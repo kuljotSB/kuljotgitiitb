@@ -1,3 +1,0 @@
-wncc
-git-session
-hello world
