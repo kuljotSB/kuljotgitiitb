@@ -1,0 +1,19 @@
+{
+  "name": "searchpackage",
+  "version": "1.0.0",
+  "description": "json search api for bot creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuljotSB/kuljotgitiitb.git"
+  },
+  "author": "kuljot singh bakshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuljotSB/kuljotgitiitb/issues"
+  },
+  "homepage": "https://github.com/kuljotSB/kuljotgitiitb#readme"
+}
